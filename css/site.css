@@ -315,9 +315,9 @@ header {
     }
 }
 
-/* My Services */
+/* My Skills */
 
-.my-services {
+.my-skills {
     background-color: var(--clr-dark);
 /*    background-image: url(../image/component_15.png);*/
     background-size: cover;
@@ -325,12 +325,12 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--skills {
     color: var(--clr-accent);
     position: relative;
 }
 
-.section__title--services::after {
+.section__title--skills::after {
     content: '';
     display: block;
     width: 2em;
@@ -340,26 +340,20 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.skills {
     margin-bottom: 4em;
-}
-
-.service {
     max-width: 500px;
     margin: 0 auto;
 }
 
-@media (min-width: 800px) {
-    .services {
-        display: flex;
-        max-width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /* it sets margin left for siblings of the first item */
-    .service + .service {
-        margin-left: 2em;
-    }
+.skills h3 {
+    margin-top: -.75em;
+    margin-bottom: .75em;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 /* About Me */
